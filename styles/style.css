@@ -1,0 +1,20 @@
+/*section Sobre mim*/
+
+.resumo{
+    display: flex;
+    flex-direction: row;
+}
+
+/* section Skills*/
+
+.skills__cards{
+    display: flex;
+    flex-direction: row;
+}
+
+/* section minhas Paixões*/
+
+.minhasPaixoes__cards{
+    display: flex;
+    flex-direction: row;
+}
