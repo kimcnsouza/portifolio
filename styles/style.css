@@ -3,6 +3,8 @@
 .resumo{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 300px 100px;
 }
 
 .resumo__foto{
@@ -15,18 +17,33 @@
 .skills__cards{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 100px;
 }
 
 .skills__cards__imagens{
     height: 100px;
-    width: 100px; 
+    width: 100px;
+    padding: 20px; 
 }
 
 /* section minhas Paixões*/
 
+.minhasPaixoes{
+    padding: 300px 100px;
+}
+
 .minhasPaixoes__cards{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.minhasPaixoes__cards__cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .minhasPaixoes__cards__imagem{
