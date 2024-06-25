@@ -5,6 +5,11 @@
     flex-direction: row;
 }
 
+.resumo__foto{
+    height: 300px;
+    width: 300px;
+}
+
 /* section Skills*/
 
 .skills__cards{
@@ -12,9 +17,19 @@
     flex-direction: row;
 }
 
+.skills__cards__imagens{
+    height: 100px;
+    width: 100px; 
+}
+
 /* section minhas Paixões*/
 
 .minhasPaixoes__cards{
     display: flex;
     flex-direction: row;
+}
+
+.minhasPaixoes__cards__imagem{
+    height: 70px;
+    width: 70px;
 }
