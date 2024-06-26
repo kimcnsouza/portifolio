@@ -1,1 +1,52 @@
-/*
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Phudu:wght@300..900&display=swap');
+
+/*header*/
+
+.header__link{
+    font-family: "Phudu", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color:black;
+}
+
+/*section Sobre mim*/
+
+.resumo__textos__titulo{
+    font-family: "Phudu", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color:black;
+}
+
+.resumo__textos__paragrafo{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+}
+
+/* section Skills*/
+
+.skills__cards__texto{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+}
+
+/* section minhas Paixões*/
+
+.minhasPaixoes__texto{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+}
+
+.minhasPaixoes__cards__texto{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color:black;
+}
