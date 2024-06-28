@@ -26,12 +26,22 @@
 
 /* section Skills*/
 
-.skills__cards{
+.skills{
+    padding: 10px 100px; 
+}
+
+.skilld__cards__js, 
+.skilld__cards__css{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
-    padding: 10px 100px;
+}
+
+.skilld__cards__html,
+.skilld__cards__vscode{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .skills__cards__imagens{
@@ -43,7 +53,7 @@
 /* section minhas Paixões*/
 
 .minhasPaixoes{
-    padding: 200px 100px;
+    padding: 100px 100px;
 }
 
 .minhasPaixoes__cards{
@@ -57,6 +67,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 75px;
+    border: 3px solid #e53939;
+    border-radius: 15px;
+    box-shadow: 10px 10px #d03030 ;
 }
 
 .minhasPaixoes__cards__imagem{
