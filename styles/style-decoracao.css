@@ -28,6 +28,13 @@
 
 /* section Skills*/
 
+.minhasSkills__titulo{
+    font-family: "Phudu", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color:black;
+}
+
 .skills__cards__texto{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
@@ -36,6 +43,13 @@
 }
 
 /* section minhas Paixões*/
+
+.minhasPaixoes__titulo{
+    font-family: "Phudu", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color:black;
+}
 
 .minhasPaixoes__texto{
     font-family: "Montserrat", sans-serif;
