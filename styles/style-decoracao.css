@@ -64,3 +64,8 @@
     font-weight: 700;
     color:black;
 }
+.minhasPaixoes__cards__cartao:hover{
+    background: linear-gradient(#e53939, #000000);
+}
+
+/*formatação de mouse em cima dos cards*/
