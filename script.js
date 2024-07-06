@@ -26,4 +26,28 @@ function adicionaTexto () {
 	cartaoTecnologia.addEventListener('mouseover', () => {textoTecnologia()})
 }
 
+function resetarCartaoBeleza () {
+	cartaoBeleza.innerHTML = "<img class='minhasPaixoes__cards__imagem' src='/images/imagem-autocuidado.png' alt='Imagens sobre beleza'><h4 class='minhasPaixoes__cards__texto'>Lorem ipsum</h4>"
+}
+
+function resetarCartaoMusica () {
+	cartaoMusica.innerHTML = "<img class='minhasPaixoes__cards__imagem' src='/images/imagem-notas-musicais.png' alt='Imagens sobre musica'><h4 class='minhasPaixoes__cards__texto'>Lorem ipsum</h4>"
+}
+
+function resetarCartaoJogos () {
+	cartaoJogos.innerHTML = "<img class='minhasPaixoes__cards__imagem' src='/images/imagem-jogos.png' alt='Imagens sobre jogos'><h4 class='minhasPaixoes__cards__texto'>Lorem ipsum</h4>"
+}
+
+function resetarCartaoTecnologia () {
+	cartaoTecnologia.innerHTML = "<img class='minhasPaixoes__cards__imagem' src='/images/imagem-tecnologia.png' alt='Imagens sobre tecnologia'><h4 class='minhasPaixoes__cards__texto'>Lorem ipsum</h4>"
+}
+
+function resetar () {
+	cartaoBeleza.addEventListener('mouseleave', () => {resetarCartaoBeleza() })
+	cartaoMusica.addEventListener('mouseleave', () => {resetarCartaoMusica() })
+	cartaoJogos.addEventListener('mouseleave', () => {resetarCartaoJogos() })
+	cartaoTecnologia.addEventListener('mouseleave', () => {resetarCartaoTecnologia() })	
+}
+
 adicionaTexto()
+resetar()
